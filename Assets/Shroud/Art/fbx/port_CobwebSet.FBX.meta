@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: b7b6c0a46b6663742b767ac5cb20eaf9
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Port_WebArchBig
+    100004: Port_WebArchSmall
+    100006: Port_WebCornerBottom
+    100008: Port_WebCornerLeft
+    100010: Port_WebCornerSmall
+    100012: Port_WebRightCorner
+    100014: Port_Webstretch
+    100016: Port_WebStretchBig
+    100018: Port_WebArchSmal
+    100020: Port_WebCornerSmal
+    400000: //RootNode
+    400002: Port_WebArchBig
+    400004: Port_WebArchSmall
+    400006: Port_WebCornerBottom
+    400008: Port_WebCornerLeft
+    400010: Port_WebCornerSmall
+    400012: Port_WebRightCorner
+    400014: Port_Webstretch
+    400016: Port_WebStretchBig
+    400018: Port_WebArchSmal
+    400020: Port_WebCornerSmal
+    2300000: Port_WebArchBig
+    2300002: Port_WebArchSmall
+    2300004: Port_WebCornerBottom
+    2300006: Port_WebCornerLeft
+    2300008: Port_WebCornerSmall
+    2300010: Port_WebRightCorner
+    2300012: Port_Webstretch
+    2300014: Port_WebStretchBig
+    2300016: Port_WebArchSmal
+    2300018: Port_WebCornerSmal
+    3300000: Port_WebArchBig
+    3300002: Port_WebArchSmall
+    3300004: Port_WebCornerBottom
+    3300006: Port_WebCornerLeft
+    3300008: Port_WebCornerSmall
+    3300010: Port_WebRightCorner
+    3300012: Port_Webstretch
+    3300014: Port_WebStretchBig
+    3300016: Port_WebArchSmal
+    3300018: Port_WebCornerSmal
+    4300000: Port_WebArchBig
+    4300002: Port_WebStretchBig
+    4300004: Port_WebCornerSmall
+    4300006: Port_WebCornerLeft
+    4300008: Port_WebArchSmall
+    4300010: Port_WebRightCorner
+    4300012: Port_WebCornerBottom
+    4300014: Port_Webstretch
+    4300016: Port_WebCornerSmal
+    4300018: Port_WebArchSmal
+    9500000: //RootNode
+    11400000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

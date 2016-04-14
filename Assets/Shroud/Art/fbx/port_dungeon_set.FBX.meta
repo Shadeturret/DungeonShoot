@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: b5558fe4292d40d4298ed555f54044b6
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: port_Hall Arch Average
+    100004: port_Hall Arch Wide
+    100006: port_Hall Door Frame Double
+    100008: port_Hall Large Endcap
+    100010: port_Hall Large Ramp
+    100012: port_Hall Large Stairs
+    100014: port_Hall Small Ramp
+    100016: port_Hall Small Stairs
+    100018: port_Hall Straight
+    100020: port_Hall T-Intersection
+    100022: port_Hall V-Intersection
+    100024: port_Hall X-Intersection
+    100026: port_Passage Arch Slim
+    100028: port_Passage Endcap
+    100030: port_Passage Straight
+    100032: port_Passage T-Intersection
+    100034: port_Passage V-Intersection
+    100036: port_Passage X-Intersection
+    100038: port_Passagel Door Frame Single
+    100040: port_Room 3m
+    100042: port_Room 5m
+    100044: port_Room 7m
+    100046: port_Room 7m 2-Entrance
+    100048: port_Room 7m Arch Average
+    100050: port_Room Center
+    100052: port_Room Corner Closed
+    100054: port_Room Corner Open
+    100056: port_Room Interior Arch Slim
+    100058: port_Room Interior Arch Wide
+    100060: port_Room Interior Door Frame Double
+    100062: port_Room Interior Door Frame Single
+    100064: port_Room Interior Pillar
+    100066: port_Room Interior Wall 4m
+    100068: port_Room Interior Wall 8m
+    100070: port_Room Wall Arch Average
+    100072: port_Room Wall Arch Slim
+    100074: port_Room Wall Door Frame Double
+    100076: port_Room Wall Door Frame Single
+    100078: port_Room Wall Straight
+    100080: port_Room2x Center
+    100082: port_Room2x Corner Closed
+    100084: port_Room2x Corner Open
+    100086: port_Room2x Interior Arch Average
+    100088: port_Room2x Interior Arch Wide
+    100090: port_Room2x Interior Door Frame Double
+    100092: port_Room2x Interior Door Frame Single
+    100094: port_Room2x Interior Pillar
+    100096: port_Room2x Interior Wall 4m
+    100098: port_Room2x Interior Wall 8m
+    100100: port_Room2x Raised Platform 01
+    100102: port_Room2x Wall Arch Average
+    100104: port_Room2x Wall Arch Average High
+    100106: port_Room2x Wall Arch Slim
+    100108: port_Room2x Wall Arch Slim High
+    100110: port_Room2x Wall Door Frame Double
+    100112: port_Room2x Wall Door Frame Double High
+    100114: port_Room2x Wall Door Frame Single
+    100116: port_Room2x Wall Door Frame Single High
+    100118: port_Room2x Wall Straight
+    100120: port_Stairs Freestanding
+    100122: port_Stairs Freestanding Wide
+    100124: port_Hall Endcap
+    100126: port_Hall Ramp
+    100128: port_Hall Stairs
+    100130: port_Passage Ramp
+    100132: port_Passage Stairs
+    100134: port_Passage Door Frame Single
+    100136: Entrance Outside
+    100138: port_Hall Arch Wide Crypts
+    100140: port_Room2x Wall Straight Crypts
+    100142: port_Tomb 01
+    100144: port_Tomb 01 lid
+    100146: port_Room2x Interior Pillar Wide
+    100148: port_Room2x Interior Pillar Wide Broken01
+    100150: ' Interior Pillar Wide Broken01a'
+    100152: ' Interior Pillar Wide Broken01b'
+    100154: ' Interior Pillar Wide Broken01c'
+    100156: ' Interior Pillar Wide Broken01d'
+    100158: ' Interior Pillar Wide Broken01e'
+    100160: ' Interior Pillar Wide Broken01f'
+    100162: ' Interior Pillar Wide Broken01g'
+    100164: ' Interior Pillar Wide Broken01h'
+    100166: ' Interior Pillar Wide Broken01i'
+    100168: ' Interior Pillar Wide Broken01j'
+    100170: ' Interior Pillar Wide Broken01k'
+    100172: ' Interior Pillar Wide Broken01l'
+    100174: ' Interior Pillar Wide Broken01m'
+    100176: port_Room2x Interior Pillar Wide Broken01a
+    100178: port_Room2x Interior Pillar Wide Broken01b
+    100180: port_Room2x Interior Pillar Wide Broken01c
+    100182: port_Room2x Interior Pillar Wide Broken01d
+    100184: port_Room2x Interior Pillar Wide Broken01e
+    100186: port_Room2x Interior Pillar Wide Broken01f
+    100188: port_Room2x Interior Pillar Wide Broken01g
+    100190: port_Room2x Interior Pillar Wide Broken01h
+    100192: port_Room2x Interior Pillar Wide Broken01i
+    100194: port_Room2x Interior Pillar Wide Broken01j
+    100196: port_Room2x Interior Pillar Wide Broken01k
+    100198: port_Room2x Interior Pillar Wide Broken01l
+    100200: port_Room2x Interior Pillar Wide Broken01m
+    100202: port_Hall Straight broken 01
+    100204: port_Passage Straight broken 01
+    100206: port_Room Center broken 01
+    100208: port_Room Center broken 02
+    100210: port_Room2x Center broken 01
+    100212: port_Room2x Center broken 02
+    100214: port_Room2x Interior Pillar Capped
+    100216: port_Hall Straight Other Set Entrance Connection
+    100218: port_Passage Straight Other Set Entrance Connection
+    100220: port_Room Wall Other Set Entrance Connection
+    100222: port_Room2x Wall Other Set Entrance Connection
+    400000: //RootNode
+    400002: port_Hall Arch Average
+    400004: port_Hall Arch Wide
+    400006: port_Hall Door Frame Double
+    400008: port_Hall Large Endcap
+    400010: port_Hall Large Ramp
+    400012: port_Hall Large Stairs
+    400014: port_Hall Small Ramp
+    400016: port_Hall Small Stairs
+    400018: port_Hall Straight
+    400020: port_Hall T-Intersection
+    400022: port_Hall V-Intersection
+    400024: port_Hall X-Intersection
+    400026: port_Passage Arch Slim
+    400028: port_Passage Endcap
+    400030: port_Passage Straight
+    400032: port_Passage T-Intersection
+    400034: port_Passage V-Intersection
+    400036: port_Passage X-Intersection
+    400038: port_Passagel Door Frame Single
+    400040: port_Room 3m
+    400042: port_Room 5m
+    400044: port_Room 7m
+    400046: port_Room 7m 2-Entrance
+    400048: port_Room 7m Arch Average
+    400050: port_Room Center
+    400052: port_Room Corner Closed
+    400054: port_Room Corner Open
+    400056: port_Room Interior Arch Slim
+    400058: port_Room Interior Arch Wide
+    400060: port_Room Interior Door Frame Double
+    400062: port_Room Interior Door Frame Single
+    400064: port_Room Interior Pillar
+    400066: port_Room Interior Wall 4m
+    400068: port_Room Interior Wall 8m
+    400070: port_Room Wall Arch Average
+    400072: port_Room Wall Arch Slim
+    400074: port_Room Wall Door Frame Double
+    400076: port_Room Wall Door Frame Single
+    400078: port_Room Wall Straight
+    400080: port_Room2x Center
+    400082: port_Room2x Corner Closed
+    400084: port_Room2x Corner Open
+    400086: port_Room2x Interior Arch Average
+    400088: port_Room2x Interior Arch Wide
+    400090: port_Room2x Interior Door Frame Double
+    400092: port_Room2x Interior Door Frame Single
+    400094: port_Room2x Interior Pillar
+    400096: port_Room2x Interior Wall 4m
+    400098: port_Room2x Interior Wall 8m
+    400100: port_Room2x Raised Platform 01
+    400102: port_Room2x Wall Arch Average
+    400104: port_Room2x Wall Arch Average High
+    400106: port_Room2x Wall Arch Slim
+    400108: port_Room2x Wall Arch Slim High
+    400110: port_Room2x Wall Door Frame Double
+    400112: port_Room2x Wall Door Frame Double High
+    400114: port_Room2x Wall Door Frame Single
+    400116: port_Room2x Wall Door Frame Single High
+    400118: port_Room2x Wall Straight
+    400120: port_Stairs Freestanding
+    400122: port_Stairs Freestanding Wide
+    400124: port_Hall Endcap
+    400126: port_Hall Ramp
+    400128: port_Hall Stairs
+    400130: port_Passage Ramp
+    400132: port_Passage Stairs
+    400134: port_Passage Door Frame Single
+    400136: Entrance Outside
+    400138: port_Hall Arch Wide Crypts
+    400140: port_Room2x Wall Straight Crypts
+    400142: port_Tomb 01
+    400144: port_Tomb 01 lid
+    400146: port_Room2x Interior Pillar Wide
+    400148: port_Room2x Interior Pillar Wide Broken01
+    400150: ' Interior Pillar Wide Broken01a'
+    400152: ' Interior Pillar Wide Broken01b'
+    400154: ' Interior Pillar Wide Broken01c'
+    400156: ' Interior Pillar Wide Broken01d'
+    400158: ' Interior Pillar Wide Broken01e'
+    400160: ' Interior Pillar Wide Broken01f'
+    400162: ' Interior Pillar Wide Broken01g'
+    400164: ' Interior Pillar Wide Broken01h'
+    400166: ' Interior Pillar Wide Broken01i'
+    400168: ' Interior Pillar Wide Broken01j'
+    400170: ' Interior Pillar Wide Broken01k'
+    400172: ' Interior Pillar Wide Broken01l'
+    400174: ' Interior Pillar Wide Broken01m'
+    400176: port_Room2x Interior Pillar Wide Broken01a
+    400178: port_Room2x Interior Pillar Wide Broken01b
+    400180: port_Room2x Interior Pillar Wide Broken01c
+    400182: port_Room2x Interior Pillar Wide Broken01d
+    400184: port_Room2x Interior Pillar Wide Broken01e
+    400186: port_Room2x Interior Pillar Wide Broken01f
+    400188: port_Room2x Interior Pillar Wide Broken01g
+    400190: port_Room2x Interior Pillar Wide Broken01h
+    400192: port_Room2x Interior Pillar Wide Broken01i
+    400194: port_Room2x Interior Pillar Wide Broken01j
+    400196: port_Room2x Interior Pillar Wide Broken01k
+    400198: port_Room2x Interior Pillar Wide Broken01l
+    400200: port_Room2x Interior Pillar Wide Broken01m
+    400202: port_Hall Straight broken 01
+    400204: port_Passage Straight broken 01
+    400206: port_Room Center broken 01
+    400208: port_Room Center broken 02
+    400210: port_Room2x Center broken 01
+    400212: port_Room2x Center broken 02
+    400214: port_Room2x Interior Pillar Capped
+    400216: port_Hall Straight Other Set Entrance Connection
+    400218: port_Passage Straight Other Set Entrance Connection
+    400220: port_Room Wall Other Set Entrance Connection
+    400222: port_Room2x Wall Other Set Entrance Connection
+    2300000: port_Hall Arch Average
+    2300002: port_Hall Arch Wide
+    2300004: port_Hall Door Frame Double
+    2300006: port_Hall Large Endcap
+    2300008: port_Hall Large Ramp
+    2300010: port_Hall Large Stairs
+    2300012: port_Hall Small Ramp
+    2300014: port_Hall Small Stairs
+    2300016: port_Hall Straight
+    2300018: port_Hall T-Intersection
+    2300020: port_Hall V-Intersection
+    2300022: port_Hall X-Intersection
+    2300024: port_Passage Arch Slim
+    2300026: port_Passage Endcap
+    2300028: port_Passage Straight
+    2300030: port_Passage T-Intersection
+    2300032: port_Passage V-Intersection
+    2300034: port_Passage X-Intersection
+    2300036: port_Passagel Door Frame Single
+    2300038: port_Room 3m
+    2300040: port_Room 5m
+    2300042: port_Room 7m
+    2300044: port_Room 7m 2-Entrance
+    2300046: port_Room 7m Arch Average
+    2300048: port_Room Center
+    2300050: port_Room Corner Closed
+    2300052: port_Room Corner Open
+    2300054: port_Room Interior Arch Slim
+    2300056: port_Room Interior Arch Wide
+    2300058: port_Room Interior Door Frame Double
+    2300060: port_Room Interior Door Frame Single
+    2300062: port_Room Interior Pillar
+    2300064: port_Room Interior Wall 4m
+    2300066: port_Room Interior Wall 8m
+    2300068: port_Room Wall Arch Average
+    2300070: port_Room Wall Arch Slim
+    2300072: port_Room Wall Door Frame Double
+    2300074: port_Room Wall Door Frame Single
+    2300076: port_Room Wall Straight
+    2300078: port_Room2x Center
+    2300080: port_Room2x Corner Closed
+    2300082: port_Room2x Corner Open
+    2300084: port_Room2x Interior Arch Average
+    2300086: port_Room2x Interior Arch Wide
+    2300088: port_Room2x Interior Door Frame Double
+    2300090: port_Room2x Interior Door Frame Single
+    2300092: port_Room2x Interior Pillar
+    2300094: port_Room2x Interior Wall 4m
+    2300096: port_Room2x Interior Wall 8m
+    2300098: port_Room2x Raised Platform 01
+    2300100: port_Room2x Wall Arch Average
+    2300102: port_Room2x Wall Arch Average High
+    2300104: port_Room2x Wall Arch Slim
+    2300106: port_Room2x Wall Arch Slim High
+    2300108: port_Room2x Wall Door Frame Double
+    2300110: port_Room2x Wall Door Frame Double High
+    2300112: port_Room2x Wall Door Frame Single
+    2300114: port_Room2x Wall Door Frame Single High
+    2300116: port_Room2x Wall Straight
+    2300118: port_Stairs Freestanding
+    2300120: port_Stairs Freestanding Wide
+    2300122: port_Hall Endcap
+    2300124: port_Hall Ramp
+    2300126: port_Hall Stairs
+    2300128: port_Passage Ramp
+    2300130: port_Passage Stairs
+    2300132: port_Passage Door Frame Single
+    2300134: Entrance Outside
+    2300136: port_Hall Arch Wide Crypts
+    2300138: port_Room2x Wall Straight Crypts
+    2300140: port_Tomb 01
+    2300142: port_Tomb 01 lid
+    2300144: port_Room2x Interior Pillar Wide
+    2300146: port_Room2x Interior Pillar Wide Broken01
+    2300148: ' Interior Pillar Wide Broken01a'
+    2300150: ' Interior Pillar Wide Broken01b'
+    2300152: ' Interior Pillar Wide Broken01c'
+    2300154: ' Interior Pillar Wide Broken01d'
+    2300156: ' Interior Pillar Wide Broken01e'
+    2300158: ' Interior Pillar Wide Broken01f'
+    2300160: ' Interior Pillar Wide Broken01g'
+    2300162: ' Interior Pillar Wide Broken01h'
+    2300164: ' Interior Pillar Wide Broken01i'
+    2300166: ' Interior Pillar Wide Broken01j'
+    2300168: ' Interior Pillar Wide Broken01k'
+    2300170: ' Interior Pillar Wide Broken01l'
+    2300172: ' Interior Pillar Wide Broken01m'
+    2300174: port_Room2x Interior Pillar Wide Broken01a
+    2300176: port_Room2x Interior Pillar Wide Broken01b
+    2300178: port_Room2x Interior Pillar Wide Broken01c
+    2300180: port_Room2x Interior Pillar Wide Broken01d
+    2300182: port_Room2x Interior Pillar Wide Broken01e
+    2300184: port_Room2x Interior Pillar Wide Broken01f
+    2300186: port_Room2x Interior Pillar Wide Broken01g
+    2300188: port_Room2x Interior Pillar Wide Broken01h
+    2300190: port_Room2x Interior Pillar Wide Broken01i
+    2300192: port_Room2x Interior Pillar Wide Broken01j
+    2300194: port_Room2x Interior Pillar Wide Broken01k
+    2300196: port_Room2x Interior Pillar Wide Broken01l
+    2300198: port_Room2x Interior Pillar Wide Broken01m
+    2300200: port_Hall Straight broken 01
+    2300202: port_Passage Straight broken 01
+    2300204: port_Room Center broken 01
+    2300206: port_Room Center broken 02
+    2300208: port_Room2x Center broken 01
+    2300210: port_Room2x Center broken 02
+    2300212: port_Room2x Interior Pillar Capped
+    2300214: port_Hall Straight Other Set Entrance Connection
+    2300216: port_Passage Straight Other Set Entrance Connection
+    2300218: port_Room Wall Other Set Entrance Connection
+    2300220: port_Room2x Wall Other Set Entrance Connection
+    3300000: port_Hall Arch Average
+    3300002: port_Hall Arch Wide
+    3300004: port_Hall Door Frame Double
+    3300006: port_Hall Large Endcap
+    3300008: port_Hall Large Ramp
+    3300010: port_Hall Large Stairs
+    3300012: port_Hall Small Ramp
+    3300014: port_Hall Small Stairs
+    3300016: port_Hall Straight
+    3300018: port_Hall T-Intersection
+    3300020: port_Hall V-Intersection
+    3300022: port_Hall X-Intersection
+    3300024: port_Passage Arch Slim
+    3300026: port_Passage Endcap
+    3300028: port_Passage Straight
+    3300030: port_Passage T-Intersection
+    3300032: port_Passage V-Intersection
+    3300034: port_Passage X-Intersection
+    3300036: port_Passagel Door Frame Single
+    3300038: port_Room 3m
+    3300040: port_Room 5m
+    3300042: port_Room 7m
+    3300044: port_Room 7m 2-Entrance
+    3300046: port_Room 7m Arch Average
+    3300048: port_Room Center
+    3300050: port_Room Corner Closed
+    3300052: port_Room Corner Open
+    3300054: port_Room Interior Arch Slim
+    3300056: port_Room Interior Arch Wide
+    3300058: port_Room Interior Door Frame Double
+    3300060: port_Room Interior Door Frame Single
+    3300062: port_Room Interior Pillar
+    3300064: port_Room Interior Wall 4m
+    3300066: port_Room Interior Wall 8m
+    3300068: port_Room Wall Arch Average
+    3300070: port_Room Wall Arch Slim
+    3300072: port_Room Wall Door Frame Double
+    3300074: port_Room Wall Door Frame Single
+    3300076: port_Room Wall Straight
+    3300078: port_Room2x Center
+    3300080: port_Room2x Corner Closed
+    3300082: port_Room2x Corner Open
+    3300084: port_Room2x Interior Arch Average
+    3300086: port_Room2x Interior Arch Wide
+    3300088: port_Room2x Interior Door Frame Double
+    3300090: port_Room2x Interior Door Frame Single
+    3300092: port_Room2x Interior Pillar
+    3300094: port_Room2x Interior Wall 4m
+    3300096: port_Room2x Interior Wall 8m
+    3300098: port_Room2x Raised Platform 01
+    3300100: port_Room2x Wall Arch Average
+    3300102: port_Room2x Wall Arch Average High
+    3300104: port_Room2x Wall Arch Slim
+    3300106: port_Room2x Wall Arch Slim High
+    3300108: port_Room2x Wall Door Frame Double
+    3300110: port_Room2x Wall Door Frame Double High
+    3300112: port_Room2x Wall Door Frame Single
+    3300114: port_Room2x Wall Door Frame Single High
+    3300116: port_Room2x Wall Straight
+    3300118: port_Stairs Freestanding
+    3300120: port_Stairs Freestanding Wide
+    3300122: port_Hall Endcap
+    3300124: port_Hall Ramp
+    3300126: port_Hall Stairs
+    3300128: port_Passage Ramp
+    3300130: port_Passage Stairs
+    3300132: port_Passage Door Frame Single
+    3300134: Entrance Outside
+    3300136: port_Hall Arch Wide Crypts
+    3300138: port_Room2x Wall Straight Crypts
+    3300140: port_Tomb 01
+    3300142: port_Tomb 01 lid
+    3300144: port_Room2x Interior Pillar Wide
+    3300146: port_Room2x Interior Pillar Wide Broken01
+    3300148: ' Interior Pillar Wide Broken01a'
+    3300150: ' Interior Pillar Wide Broken01b'
+    3300152: ' Interior Pillar Wide Broken01c'
+    3300154: ' Interior Pillar Wide Broken01d'
+    3300156: ' Interior Pillar Wide Broken01e'
+    3300158: ' Interior Pillar Wide Broken01f'
+    3300160: ' Interior Pillar Wide Broken01g'
+    3300162: ' Interior Pillar Wide Broken01h'
+    3300164: ' Interior Pillar Wide Broken01i'
+    3300166: ' Interior Pillar Wide Broken01j'
+    3300168: ' Interior Pillar Wide Broken01k'
+    3300170: ' Interior Pillar Wide Broken01l'
+    3300172: ' Interior Pillar Wide Broken01m'
+    3300174: port_Room2x Interior Pillar Wide Broken01a
+    3300176: port_Room2x Interior Pillar Wide Broken01b
+    3300178: port_Room2x Interior Pillar Wide Broken01c
+    3300180: port_Room2x Interior Pillar Wide Broken01d
+    3300182: port_Room2x Interior Pillar Wide Broken01e
+    3300184: port_Room2x Interior Pillar Wide Broken01f
+    3300186: port_Room2x Interior Pillar Wide Broken01g
+    3300188: port_Room2x Interior Pillar Wide Broken01h
+    3300190: port_Room2x Interior Pillar Wide Broken01i
+    3300192: port_Room2x Interior Pillar Wide Broken01j
+    3300194: port_Room2x Interior Pillar Wide Broken01k
+    3300196: port_Room2x Interior Pillar Wide Broken01l
+    3300198: port_Room2x Interior Pillar Wide Broken01m
+    3300200: port_Hall Straight broken 01
+    3300202: port_Passage Straight broken 01
+    3300204: port_Room Center broken 01
+    3300206: port_Room Center broken 02
+    3300208: port_Room2x Center broken 01
+    3300210: port_Room2x Center broken 02
+    3300212: port_Room2x Interior Pillar Capped
+    3300214: port_Hall Straight Other Set Entrance Connection
+    3300216: port_Passage Straight Other Set Entrance Connection
+    3300218: port_Room Wall Other Set Entrance Connection
+    3300220: port_Room2x Wall Other Set Entrance Connection
+    4300000: port_Room2x Center
+    4300002: port_Room Center
+    4300004: port_Room Wall Straight
+    4300006: port_Hall T-Intersection
+    4300008: port_Hall Straight
+    4300010: port_Passage T-Intersection
+    4300012: port_Passage V-Intersection
+    4300014: port_Passage Straight
+    4300016: port_Hall X-Intersection
+    4300018: port_Hall V-Intersection
+    4300020: port_Hall Small Stairs
+    4300022: port_Hall Large Stairs
+    4300024: port_Passage X-Intersection
+    4300026: port_Passage Endcap
+    4300028: port_Hall Large Endcap
+    4300030: port_Passage Arch Slim
+    4300032: port_Room Corner Closed
+    4300034: port_Room Corner Open
+    4300036: port_Room Interior Pillar
+    4300038: port_Room Interior Wall 4m
+    4300040: port_Room Interior Arch Slim
+    4300042: port_Room Interior Wall 8m
+    4300044: port_Room Wall Arch Slim
+    4300046: port_Room2x Wall Straight
+    4300048: port_Room2x Interior Pillar
+    4300050: port_Room2x Corner Open
+    4300052: port_Room2x Corner Closed
+    4300054: port_Room2x Interior Arch Average
+    4300056: port_Room2x Interior Wall 4m
+    4300058: port_Room2x Raised Platform 01
+    4300060: port_Room2x Wall Arch Slim High
+    4300062: port_Stairs Freestanding Wide
+    4300064: port_Stairs Freestanding
+    4300066: port_Room2x Interior Wall 8m
+    4300068: port_Room2x Wall Arch Slim
+    4300070: port_Hall Arch Wide
+    4300072: port_Hall Arch Average
+    4300074: port_Room Wall Arch Average
+    4300076: port_Room2x Wall Arch Average
+    4300078: port_Room2x Wall Arch Average High
+    4300080: port_Room Interior Arch Wide
+    4300082: port_Room2x Interior Arch Wide
+    4300084: port_Hall Large Ramp
+    4300086: port_Hall Small Ramp
+    4300088: port_Passagel Door Frame Single
+    4300090: port_Hall Door Frame Double
+    4300092: port_Room Wall Door Frame Double
+    4300094: port_Room Wall Door Frame Single
+    4300096: port_Room Interior Door Frame Single
+    4300098: port_Room Interior Door Frame Double
+    4300100: port_Room2x Wall Door Frame Single
+    4300102: port_Room2x Interior Door Frame Double
+    4300104: port_Room2x Interior Door Frame Single
+    4300106: port_Room2x Wall Door Frame Double
+    4300108: port_Room2x Wall Door Frame Single High
+    4300110: port_Room2x Wall Door Frame Double High
+    4300112: port_Room 3m
+    4300114: port_Room 5m
+    4300116: port_Room 7m Arch Average
+    4300118: port_Room 7m
+    4300120: port_Room 7m 2-Entrance
+    4300122: port_Passage Stairs
+    4300124: port_Hall Stairs
+    4300126: port_Hall Endcap
+    4300128: port_Hall Ramp
+    4300130: port_Passage Ramp
+    4300132: port_Passage Door Frame Single
+    4300134: Entrance Outside
+    4300136: port_Hall Arch Wide Crypts
+    4300138: port_Room2x Wall Straight Crypts
+    4300140: port_Tomb 01
+    4300142: port_Tomb 01 lid
+    4300144: port_Room2x Interior Pillar Wide
+    4300146: port_Room2x Interior Pillar Wide Broken01
+    4300148: ' Interior Pillar Wide Broken01a'
+    4300150: ' Interior Pillar Wide Broken01b'
+    4300152: ' Interior Pillar Wide Broken01c'
+    4300154: ' Interior Pillar Wide Broken01d'
+    4300156: ' Interior Pillar Wide Broken01e'
+    4300158: ' Interior Pillar Wide Broken01f'
+    4300160: ' Interior Pillar Wide Broken01g'
+    4300162: ' Interior Pillar Wide Broken01h'
+    4300164: ' Interior Pillar Wide Broken01i'
+    4300166: ' Interior Pillar Wide Broken01j'
+    4300168: ' Interior Pillar Wide Broken01k'
+    4300170: ' Interior Pillar Wide Broken01l'
+    4300172: ' Interior Pillar Wide Broken01m'
+    4300174: port_Room2x Interior Pillar Wide Broken01a
+    4300176: port_Room2x Interior Pillar Wide Broken01b
+    4300178: port_Room2x Interior Pillar Wide Broken01c
+    4300180: port_Room2x Interior Pillar Wide Broken01d
+    4300182: port_Room2x Interior Pillar Wide Broken01e
+    4300184: port_Room2x Interior Pillar Wide Broken01f
+    4300186: port_Room2x Interior Pillar Wide Broken01g
+    4300188: port_Room2x Interior Pillar Wide Broken01h
+    4300190: port_Room2x Interior Pillar Wide Broken01i
+    4300192: port_Room2x Interior Pillar Wide Broken01j
+    4300194: port_Room2x Interior Pillar Wide Broken01k
+    4300196: port_Room2x Interior Pillar Wide Broken01l
+    4300198: port_Room2x Interior Pillar Wide Broken01m
+    4300200: port_Room2x Center broken 01
+    4300202: port_Room Center broken 01
+    4300204: port_Room Center broken 02
+    4300206: port_Room2x Center broken 02
+    4300208: port_Hall Straight broken 01
+    4300210: port_Passage Straight broken 01
+    4300212: port_Room2x Interior Pillar Capped
+    4300214: port_Room Wall Other Set Entrance Connection
+    4300216: port_Room2x Wall Other Set Entrance Connection
+    4300218: port_Hall Straight Other Set Entrance Connection
+    4300220: port_Passage Straight Other Set Entrance Connection
+    6400000: Entrance Outside
+    6400002: port_Hall Arch Average
+    6400004: port_Hall Arch Wide
+    6400006: port_Hall Arch Wide Crypts
+    6400008: port_Hall Door Frame Double
+    6400010: port_Hall Endcap
+    6400012: port_Hall Ramp
+    6400014: port_Hall Stairs
+    6400016: port_Hall Straight
+    6400018: port_Hall T-Intersection
+    6400020: port_Hall V-Intersection
+    6400022: port_Hall X-Intersection
+    6400024: port_Passage Arch Slim
+    6400026: port_Passage Door Frame Single
+    6400028: port_Passage Endcap
+    6400030: port_Passage Ramp
+    6400032: port_Passage Stairs
+    6400034: port_Passage Straight
+    6400036: port_Passage T-Intersection
+    6400038: port_Passage V-Intersection
+    6400040: port_Passage X-Intersection
+    6400042: port_Room 3m
+    6400044: port_Room 5m
+    6400046: port_Room 7m
+    6400048: port_Room 7m 2-Entrance
+    6400050: port_Room 7m Arch Average
+    6400052: port_Room Center
+    6400054: port_Room Corner Closed
+    6400056: port_Room Corner Open
+    6400058: port_Room Interior Arch Slim
+    6400060: port_Room Interior Arch Wide
+    6400062: port_Room Interior Door Frame Double
+    6400064: port_Room Interior Door Frame Single
+    6400066: port_Room Interior Pillar
+    6400068: port_Room Interior Wall 4m
+    6400070: port_Room Interior Wall 8m
+    6400072: port_Room Wall Arch Average
+    6400074: port_Room Wall Arch Slim
+    6400076: port_Room Wall Door Frame Double
+    6400078: port_Room Wall Door Frame Single
+    6400080: port_Room Wall Straight
+    6400082: port_Room2x Center
+    6400084: port_Room2x Corner Closed
+    6400086: port_Room2x Corner Open
+    6400088: port_Room2x Interior Arch Average
+    6400090: port_Room2x Interior Arch Wide
+    6400092: port_Room2x Interior Door Frame Double
+    6400094: port_Room2x Interior Door Frame Single
+    6400096: port_Room2x Interior Pillar
+    6400098: port_Room2x Interior Wall 4m
+    6400100: port_Room2x Interior Wall 8m
+    6400102: port_Room2x Raised Platform 01
+    6400104: port_Room2x Wall Arch Average
+    6400106: port_Room2x Wall Arch Average High
+    6400108: port_Room2x Wall Arch Slim
+    6400110: port_Room2x Wall Arch Slim High
+    6400112: port_Room2x Wall Door Frame Double
+    6400114: port_Room2x Wall Door Frame Double High
+    6400116: port_Room2x Wall Door Frame Single
+    6400118: port_Room2x Wall Door Frame Single High
+    6400120: port_Room2x Wall Straight
+    6400122: port_Room2x Wall Straight Crypts
+    6400124: port_Stairs Freestanding
+    6400126: port_Stairs Freestanding Wide
+    6400128: port_Tomb 01
+    6400130: port_Tomb 01 lid
+    6400132: port_Room2x Interior Pillar Wide
+    6400134: port_Room2x Interior Pillar Wide Broken01
+    6400136: ' Interior Pillar Wide Broken01a'
+    6400138: ' Interior Pillar Wide Broken01b'
+    6400140: ' Interior Pillar Wide Broken01c'
+    6400142: ' Interior Pillar Wide Broken01d'
+    6400144: ' Interior Pillar Wide Broken01e'
+    6400146: ' Interior Pillar Wide Broken01f'
+    6400148: ' Interior Pillar Wide Broken01g'
+    6400150: ' Interior Pillar Wide Broken01h'
+    6400152: ' Interior Pillar Wide Broken01i'
+    6400154: ' Interior Pillar Wide Broken01j'
+    6400156: ' Interior Pillar Wide Broken01k'
+    6400158: ' Interior Pillar Wide Broken01l'
+    6400160: ' Interior Pillar Wide Broken01m'
+    6400162: port_Room2x Interior Pillar Wide Broken01a
+    6400164: port_Room2x Interior Pillar Wide Broken01b
+    6400166: port_Room2x Interior Pillar Wide Broken01c
+    6400168: port_Room2x Interior Pillar Wide Broken01d
+    6400170: port_Room2x Interior Pillar Wide Broken01e
+    6400172: port_Room2x Interior Pillar Wide Broken01f
+    6400174: port_Room2x Interior Pillar Wide Broken01g
+    6400176: port_Room2x Interior Pillar Wide Broken01h
+    6400178: port_Room2x Interior Pillar Wide Broken01i
+    6400180: port_Room2x Interior Pillar Wide Broken01j
+    6400182: port_Room2x Interior Pillar Wide Broken01k
+    6400184: port_Room2x Interior Pillar Wide Broken01l
+    6400186: port_Room2x Interior Pillar Wide Broken01m
+    6400188: port_Hall Straight broken 01
+    6400190: port_Passage Straight broken 01
+    6400192: port_Room Center broken 01
+    6400194: port_Room Center broken 02
+    6400196: port_Room2x Center broken 01
+    6400198: port_Room2x Center broken 02
+    6400200: port_Room2x Interior Pillar Capped
+    6400202: port_Hall Straight Other Set Entrance Connection
+    6400204: port_Passage Straight Other Set Entrance Connection
+    6400206: port_Room Wall Other Set Entrance Connection
+    6400208: port_Room2x Wall Other Set Entrance Connection
+    9500000: //RootNode
+    11400000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
