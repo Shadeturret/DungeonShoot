@@ -3,12 +3,12 @@ using System.Collections;
 
 public class combatScript : MonoBehaviour {
 
-    public int playerHealth;
     
+
     // Use this for initialization
-	void Start ()
+    void Start ()
     {
-        playerHealth = 100;
+        
         
 	}
 	
@@ -18,11 +18,18 @@ public class combatScript : MonoBehaviour {
 	    
 	}
 
-    void onTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            playerHealth = playerHealth - 5;
+            GameControls playerControls = other.gameObject.GetComponent<GameControls>();
+            if (playerControls.invincible == false)
+            {
+                
+                playerControls.playerHealth = playerControls.playerHealth - 5;
+                print(playerControls.playerHealth);
+            }
+            
         }
     }
 }
