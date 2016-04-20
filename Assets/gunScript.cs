@@ -9,8 +9,13 @@ public class gunScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+    {
+	    if(Input.GetMouseButtonDown(0))
+        {
+            RaycastHit[] hits;
+            hits = Physics.RaycastAll(transform.position, transform.forward, 15.0F);
+        }
 	}
     
 }
