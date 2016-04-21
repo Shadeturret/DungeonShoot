@@ -7,15 +7,25 @@ public class gunScript : MonoBehaviour {
 	void Start () {
 	
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-	    if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             RaycastHit[] hits;
             hits = Physics.RaycastAll(transform.position, transform.forward, 15.0F);
+
+            for (int i = 0; i < hits.Length; i++)
+            {
+                if (hits[i].collider.gameObject.tag == "Skeleton")
+                {
+                    hits[i].collider.gameObject.SetActive(false);
+                }
+
+                
+            }
         }
-	}
-    
+    }
+
 }
