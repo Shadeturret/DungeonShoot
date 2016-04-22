@@ -11,12 +11,28 @@ public class combatScript : MonoBehaviour {
         
         
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-	    
-	}
+        RaycastHit[] hits;
+        hits = Physics.RaycastAll(transform.position, transform.forward, 15.0F);
+
+        print(hits.Length);
+        for (int i = 0; i < hits.Length; i++)
+        {
+            if (hits[i].collider.gameObject.tag == "Player")
+            {
+                this.gameObject.transform.LookAt(hits[i].collider.gameObject.transform.position);
+                print("hit");
+
+            }
+            else
+            {
+                print(hits[i].collider.gameObject.tag);
+            }
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -31,5 +47,10 @@ public class combatScript : MonoBehaviour {
             }
             
         }
+    }
+
+    public void huntPlayer()
+    {
+        
     }
 }
