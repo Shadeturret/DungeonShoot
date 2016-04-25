@@ -3,12 +3,15 @@ using System.Collections;
 
 public class combatScript : MonoBehaviour {
 
-    
 
+
+    public float skeletonSpeed;
+    
+    
     // Use this for initialization
     void Start ()
     {
-        
+        skeletonSpeed = .05f;
         
 	}
 
@@ -25,6 +28,13 @@ public class combatScript : MonoBehaviour {
             {
                 this.gameObject.transform.LookAt(hits[i].collider.gameObject.transform.position);
                 print("hit");
+
+                transform.position += transform.forward * skeletonSpeed;
+
+
+
+
+
 
             }
             else
