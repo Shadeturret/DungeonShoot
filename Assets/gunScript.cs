@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class gunScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+    public int bossHealth;
+    
+    
+    // Use this for initialization
+	void Start ()
+    {
+        bossHealth = 100;
 	}
 
     // Update is called once per frame
@@ -18,13 +23,31 @@ public class gunScript : MonoBehaviour {
 
             for (int i = 0; i < hits.Length; i++)
             {
+                GameControls playerControls = GameObject.Find("FPSController").GetComponent<GameControls>();
+
+                print(hits[i].collider.gameObject.name);
+
                 if (hits[i].collider.gameObject.tag == "Skeleton")
                 {
                     hits[i].collider.gameObject.SetActive(false);
                 }
 
-                
+                if (hits[i].collider.gameObject.tag == "Boss")
+                {
+                    if(playerControls.invincible == true)
+                    {
+                        bossHealth = bossHealth - 10;
+                        print(bossHealth);
+                    }
+                }
+
+
             }
+        }
+
+        if(bossHealth <= 0)
+        {
+            SceneManager.LoadScene("startMenu");
         }
     }
 
