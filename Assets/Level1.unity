@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossHealth: 0
+  animator: {fileID: 1972887711}
 --- !u!1 &66162430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1203,10 @@ Prefab:
       propertyPath: m_Name
       value: skeletonDark (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 109112, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
   m_IsPrefabParent: 0
@@ -1506,6 +1511,18 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &790054748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 790054745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d5059e7eebb7340b2c883cb2509933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonSpeed: 0
 --- !u!1001 &798482248
 Prefab:
   m_ObjectHideFlags: 0
@@ -4008,6 +4025,10 @@ Prefab:
       propertyPath: m_Name
       value: skeletonDark (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 109112, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
   m_IsPrefabParent: 0
@@ -5798,6 +5819,10 @@ Prefab:
       propertyPath: m_Name
       value: skeletonDark
       objectReference: {fileID: 0}
+    - target: {fileID: 109112, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
   m_IsPrefabParent: 0
@@ -6019,6 +6044,10 @@ Prefab:
     - target: {fileID: 109112, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
       propertyPath: m_Name
       value: skeletonDark (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 109112, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3be859adc8515d34dbe4e7e1a079f303, type: 2}
@@ -6329,6 +6358,11 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 69e5eb33e5d8d6642b953bcdbc95d041, type: 2}
   m_PrefabInternal: {fileID: 1421653678}
+--- !u!95 &1972887711 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9598962, guid: e8107cb2cce677041a70e2a8c6c5faf7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1448916996}
 --- !u!1001 &1998980176
 Prefab:
   m_ObjectHideFlags: 0

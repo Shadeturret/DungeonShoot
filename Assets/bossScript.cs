@@ -10,14 +10,14 @@ public class bossScript : MonoBehaviour {
     {
         skeletonSpeed = .05f;
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
         RaycastHit[] hits;
         hits = Physics.RaycastAll(transform.position, transform.forward, 15.0F);
 
-        print(hits.Length);
+
         for (int i = 0; i < hits.Length; i++)
         {
             if (hits[i].collider.gameObject.tag == "Player")
@@ -34,4 +34,6 @@ public class bossScript : MonoBehaviour {
 
             }
         }
+
+    }
 }

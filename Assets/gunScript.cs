@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class gunScript : MonoBehaviour {
 
     public int bossHealth;
+    public Animator animator;
     
     
     // Use this for initialization
@@ -43,6 +44,8 @@ public class gunScript : MonoBehaviour {
 
 
             }
+
+            animator.SetBool("recoil", true);
         }
 
         if(bossHealth <= 0)
