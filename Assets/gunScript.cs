@@ -50,7 +50,7 @@ public class gunScript : MonoBehaviour {
 
         if(bossHealth <= 0)
         {
-            SceneManager.LoadScene("startMenu");
+            SceneManager.LoadScene("creditsPage");
         }
     }
 

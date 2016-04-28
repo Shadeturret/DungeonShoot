@@ -23,17 +23,33 @@ public class bossScript : MonoBehaviour {
             if (hits[i].collider.gameObject.tag == "Player")
             {
                 this.gameObject.transform.LookAt(hits[i].collider.gameObject.transform.position);
-                print("hit");
+                
 
                 transform.position += transform.forward * skeletonSpeed;
-
-
-
-
 
 
             }
         }
 
+        
+
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        print(other.gameObject.tag);
+
+        if (other.gameObject.tag == "Player")
+        {
+
+
+            GameControls playerControls = other.gameObject.GetComponent<GameControls>();
+           
+
+            playerControls.playerHealth = playerControls.playerHealth - 5;
+            print(playerControls.playerHealth);
+            
+
+        }
     }
 }

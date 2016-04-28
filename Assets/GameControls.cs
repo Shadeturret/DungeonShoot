@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameControls : MonoBehaviour {
 
@@ -15,8 +16,12 @@ public class GameControls : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+    {
+	    if(playerHealth <= 0)
+        {
+            SceneManager.LoadScene("startMenu");
+        }
 	}
 
     void OnTriggerEnter(Collider other)
@@ -24,7 +29,8 @@ public class GameControls : MonoBehaviour {
         if (other.gameObject.tag == "Pickup")
         {
             invincible = true;
-            print("invicible");
+            
+            other.gameObject.SetActive(false);
         }
     }
 

@@ -18,4 +18,9 @@ public class SceneChanger : MonoBehaviour {
     {
         SceneManager.LoadScene("Level1");
     }
+
+    public void backToMenu()
+    {
+        SceneManager.LoadScene("startMenu");
+    }
 }
