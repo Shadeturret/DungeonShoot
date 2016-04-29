@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+    {
+        Cursor.visible = true;
 	}
 	
 	// Update is called once per frame
@@ -22,5 +23,15 @@ public class SceneChanger : MonoBehaviour {
     public void backToMenu()
     {
         SceneManager.LoadScene("startMenu");
+    }
+
+    public void showCredits()
+    {
+        SceneManager.LoadScene("creditsPage");
+    }
+
+    public void quitTheGame()
+    {
+        Application.Quit();
     }
 }
